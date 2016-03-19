@@ -1,0 +1,48 @@
+* { 
+  /*box-sizing: border-box;*/
+}
+  
+body {
+  margin: 0 auto;
+  padding: 0;
+  color: #2d3945;
+  background-color: #fff;
+  font-family: 'Merriweather', serif;
+  max-width: 1055px;
+}
+
+#gallery {
+  text-align: center;
+}
+
+.thumbnail {
+  margin: 30px;
+}
+
+#lightbox {
+  background-color: rgba(0,0,0,0.8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#lightbox img {
+  width: 500px;
+}
+
+figure {
+  display: inline;
+  margin: 0;
+}
+
+figcaption {
+  display: none;
+}
+
+@media screen and (min-width: 760px) {
+
+
+}
